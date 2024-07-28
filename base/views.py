@@ -19,3 +19,6 @@ def create(request):
         return redirect('home')
 
     return render(request,'create.html')
+
+def edit(request,pk):
+    return render(request,'edit.html')
